@@ -1,0 +1,141 @@
+/* Para darle estilo a esta página use la siguiente paleta de colores:
+   Azul claro: #78B3CE
+   Azul suave: #C9E6F0
+   Beige: #FBF8EF
+   Rosa pálido: #F96E2A
+*/
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBF8EF;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #78B3CE;
+    color: #FBF8EF;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 0.5rem 0 0;
+  }
+  
+  /* Menú de navegación */
+  nav {
+    background-color: #C9E6F0;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #78B3CE;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Secciones principales */
+  main {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  main section {
+    margin-bottom: 2rem;
+  }
+  
+  main h2 {
+    color: #78B3CE;
+    margin-bottom: 1rem;
+  }
+  
+  figure {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  figcaption {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Bloque de citas */
+  blockquote {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #F96E2A;
+    color: #FBF8EF;
+    border-left: 5px solid #78B3CE;
+    font-style: italic;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #FBF8EF;
+    text-align: right;
+  }
+  
+  /* Lista de consejos rápidos */
+  aside {
+    background-color: #C9E6F0;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+  }
+  
+  aside h2 {
+    margin-top: 0;
+    color: #78B3CE;
+  }
+  
+  aside ul {
+    list-style: square;
+    padding-left: 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #78B3CE;
+    color: #FBF8EF;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
