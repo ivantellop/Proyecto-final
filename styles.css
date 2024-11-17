@@ -59,8 +59,9 @@ body {
   
   nav ul li a:hover {
     text-decoration: underline;
+    color: #78b3ce; /* Resalta el color del enlace al pasar el ratón */
+    letter-spacing: 1px;
   }
-  
   /* Secciones principales */
   main {
     padding: 2rem 1rem;
