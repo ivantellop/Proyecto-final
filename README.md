@@ -35,7 +35,6 @@ Sigue estos pasos para ver la página en tu computadora:
    git clone https://github.com/ivantellop/Proyecto-final.git 
 
   Navega al directorio del proyecto
-      ```bash
       cd Proyecto-final 
   
   Abre el archivo HTML principal: 
