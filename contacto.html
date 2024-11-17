@@ -42,17 +42,45 @@
       </ul>
     </nav>
     <main>
-      <form action="https://formspree.io/f/mqknynrr" method="POST">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required />
+      <!-- Uso el method "Post" porque la información enviada puede ser sensible, y dejo en blanco la action porque no tengo a donde vincularlo para que se almacenen las respuestas -->
+      <form action="" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          required
+        />
         <br />
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required />
+        <label for="correo">Correo Electrónico:</label>
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          placeholder="ejemplo@correo.com"
+          required
+        />
         <br />
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="Asunto">Asunto</label>
+        <select name="Asunto" id="Asunto" required>
+          <option value="tengo_preguntas">Tengo preguntas</option>
+          <option value="comentarios">Comentarios</option>
+          <option value="necesito_ayuda">Necesito ayuda psicológica</option>
+        </select>
         <br />
-        <button type="submit"><span class="material-icons">send</span>Enviar</button>
+        <label for="Mensaje">Mensaje:</label>
+        <textarea
+          id="Mensaje"
+          name="Mensaje"
+          rows="4"
+          placeholder="Cuentanos en qué te podemos ayudar"
+          required
+        ></textarea>
+        <br />
+        <button type="submit">
+          <span class="material-icons">send</span>Enviar
+        </button>
       </form>
     </main>
     <footer>
